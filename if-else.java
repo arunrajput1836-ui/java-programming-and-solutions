@@ -41,3 +41,20 @@ public class ifelse{
         }
     }
 }
+
+// temprature category
+
+public class ifelse{
+    public static void main(String args[]){
+        int temp = 10;
+    if (temp < 10){
+        System.out.println("cold");
+    }else if (temp > 10 || temp < 25){
+        System.out.println("moderate");
+    }
+    else if (temp >= 25){
+        System.out.println("hot");
+    }
+
+    }
+}
