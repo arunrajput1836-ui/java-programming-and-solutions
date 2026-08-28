@@ -30,3 +30,16 @@ public class loop{
             System.out.println(n + "x" + i +"=" +(n*i));
     }
 }
+
+//even and odd no
+public class loop{
+    public static void main(String args[]){
+        int i = 1, n=50;
+        for(i=1;i<=n;i++){
+            if(i%2==0){
+                System.out.println("The number" + i + "is even");
+            }else
+                System.out.println("The number" + i +"is odd");
+        }
+    }
+}
