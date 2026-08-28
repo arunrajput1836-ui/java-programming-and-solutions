@@ -43,3 +43,15 @@ public class loop{
         }
     }
 }
+
+//factorial of a no.
+ public class loop{
+     public static void main(String args[]){
+         int i = 1, n =7;
+        int factorial = 1;
+        for(i = 1;i<=n;i++){
+             factorial *=i;
+      }System.out.println(factorial);
+
+     }
+ }
