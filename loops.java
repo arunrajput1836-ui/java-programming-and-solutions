@@ -55,3 +55,26 @@ public class loop{
 
      }
  }
+// Even and Odd Numbers
+//Accept a range of numbers and display all even numbers followed by all odd numbers within the given range.
+ public class loops{
+    public static void main(String args[]){
+        int  n =20;
+
+        System.out.println("Even no" );
+            for(int i=1;i<=n;i++){
+                if (i%2==0){
+                    System.out.println(i +"is an even no");
+                }
+            }
+        System.out.println("odd no");
+            for(int i=1;i<=n;i++){
+                if (i%2 !=0){
+                    System.out.println(i + "is odd no");
+                }
+            }
+            }
+
+        
+    
+ }
