@@ -75,6 +75,15 @@ public class loop{
             }
             }
 
-        
-    
- }
+//Reverse Counting
+// using fo loop
+     public class loops{
+    public static void main (String args[]){
+        int i = 10, n =1 ;
+        for (i =10; i>=n;i--){
+            System.out.println(i);
+        }
+    }
+}
+
+
