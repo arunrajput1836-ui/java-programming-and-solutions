@@ -99,3 +99,20 @@ public class ifelse{
         }
     }
 }
+
+// student grade calculator
+public class ifelse{
+    public static void main(String args[]){
+        int grade = 56;
+        if (grade >=40){
+            System.out.println("grade D");}
+            else if (grade >= 60){
+                System.out.println("grede c");}
+                else if (grade >=75){
+                    System.out.println("grade b");}
+                    else if (grade >=90){
+                        System.out.println("grade a");
+                    }else {
+                        System.out.println("fail");
+                    }
+                }
