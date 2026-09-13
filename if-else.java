@@ -132,7 +132,7 @@ public class ifelse{
     }
 }
 
-    // public class ifelse{
+     public class ifelse{
     public static void main(String args[]){
         int day = 5;
         switch(day) {
