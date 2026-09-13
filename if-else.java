@@ -155,4 +155,31 @@ public class ifelse{
                 break;
             case 7:
                 System.out.println("Sunday");
+
+                }}}
+// public class ifelse{
+    public static void main(String args[]){
+         int num1 = 5;
+         int num2 = 10;
+         char op = '*';
+        
+         int result;
+        switch (op){
+            case '+':
+                result = num1 + num2;
+                System.out.println( result);
+                
+                break;
+            case '-':
+                result = num1 - num2;
+                System.out.println(result);
+                break;
+            case '*':
+                result = num1 * num2;
+                System.out.println(result);
+                break;
+            case '/':
+                result = num1 / num2;
+                System.out.println(result);
+                break;
                  
