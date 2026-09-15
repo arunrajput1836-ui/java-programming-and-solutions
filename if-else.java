@@ -233,3 +233,36 @@ public class ifelse{
 
     }
 }
+
+    // switch case
+public class Array{
+    public static void main(String args[]){
+        int a = 5;
+        int b= 10;
+        char op = '-';
+        int result;
+
+        switch(op){
+            case '+':{
+                result = a +b;
+                System.out.println(result);
+                break;
+            }
+            case '-':{
+                result = a - b;
+                System.out.println(result);
+                break;
+            }
+            case '*':{
+                result = a *b;
+                System.out.println(result);
+                break;
+            }
+            case '/':{
+                result = a / b;
+                System.out.println(result);
+                break;
+            }
+        }
+        }
+    }
