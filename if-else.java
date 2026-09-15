@@ -208,3 +208,28 @@ public class ifelse{
         System.out.println(ans);}
     }
     }
+
+    // public class Array{
+    public static void main (String args[]){
+        int a = 5;
+        int b = 10;
+        int op = '-';
+         
+        
+        if (op == '+'){
+            System.out.println(a + b);
+        }
+        else if (op == '-'){
+            System.out.println(a - b);
+        }
+        else if(op == '*'){
+            System.out.println(a*b);
+        }
+        else if (op == '/'){
+            System.out.println( a / b);
+        }else {
+            System.out.println("invalid operator");
+        }
+
+    }
+}
