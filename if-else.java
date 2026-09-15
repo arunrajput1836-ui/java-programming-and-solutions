@@ -262,7 +262,7 @@ public class Array{
                 result = a / b;
                 System.out.println(result);
                 break;
-            }
-        }
-        }
-    }
+          }
+      }
+   }
+}
