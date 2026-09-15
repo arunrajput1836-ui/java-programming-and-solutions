@@ -182,4 +182,29 @@ public class ifelse{
                 result = num1 / num2;
                 System.out.println(result);
                 break;
-                 
+
+
+                
+// public class ifelse {
+    public static void main(String args[]){
+        int a = 5;
+        int b = 10;
+        char op = '*';
+        int ans;
+        
+    if(op == '+'){
+        ans = a + b;
+        System.out.println(ans);
+    }
+    else if (op == '-'){
+        ans = a - b;
+        System.out.println(ans);
+    }
+    else if(op == '*'){
+        ans = a * b;
+        System.out.println(ans);}
+    else if (op == '/'){
+        ans = a/b;
+        System.out.println(ans);}
+    }
+    }
