@@ -73,7 +73,7 @@ public class loop{
                     System.out.println(i + "is odd no");
                 }
             }
-            }
+         }
 
 //Reverse Counting
 // using fo loop
