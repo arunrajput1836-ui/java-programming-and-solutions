@@ -13,7 +13,6 @@ public class string {
         String maskedAcc = new String(ar);
         System.out.println(maskedAcc);
     }
-    
 }
 
 // name search
