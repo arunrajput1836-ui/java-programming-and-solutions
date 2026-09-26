@@ -40,5 +40,5 @@ public class namesearch{
             System.out.println("name not found");
         else
             System.out.println("name found");
-     }
+  }
 }
