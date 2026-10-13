@@ -289,6 +289,22 @@ public class loops {
             System.out.println("prime")
         }
 
+// Voring Eligibility
+
+        public class ifelse{
+    public static void main(String args[]){
+        int a =20;
+        if(a>= 18){
+            System.out.println("ELigible for vote");
+        }
+        else 
+            System.out.println("Not Eligible");
+    }
+
+}
+
+        
+
 
     }
     
