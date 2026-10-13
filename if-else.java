@@ -303,7 +303,29 @@ public class loops {
 
 }
 
-        
+    Create a program that assigns a grade based on the percentage entered by the user:
+ 90% and above: Grade A
+ 80% to 89%: Grade B
+ 70% to 79%: Grade C
+ Below 70%: Fail
+
+        import java.util.Scanner;
+public class ifelse{
+    public static void main (String args[]){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter the percentage");
+        int i = sc.nextInt();
+        if(i>=90){
+            System.out.println("Grade A");
+        }
+        else if((i<=89) || (i>=80))
+            System.out.println("Grade b");
+        else if((i>=70)||(i<=79))
+            System.out.println("Grade c");
+        else 
+            System.out.println("Fail");
+    }
+}
 
 
     }
