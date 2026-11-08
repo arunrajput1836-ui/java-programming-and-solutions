@@ -89,3 +89,21 @@ public class array{
         }
     }
 }
+
+//taking input from the user;
+import java.util.Scanner;
+public class array{
+    public static void main (String args[]){
+        Scanner sc = new Scanner(System.in);
+        int [] arr = new int[5];// Declaration of array;
+        for(int i = 0;i < arr.length;i++){//loop for getting multiple values
+             System.out.println("Enter the number"+ (i + 1)+":");// getting from user
+             arr[i] = sc.nextInt();// storing the values in array
+        }
+        // printing the values that store by the user
+        for(int i =0;i< arr.length;i++){
+            System.out.println(arr[i]);
+        }
+
+    }
+}
