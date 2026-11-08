@@ -53,3 +53,17 @@ public class demoFirst{
         System.out.println("total Billl" +sum/n);
     }
 }
+// this is my first step towards the array;
+ public class array {
+    public static void main(String args[]){
+        int [] arr = { 10,20,30,40,50};
+        System.out.println(arr[1]);//for checking index value at 1;
+        //updating the value of array at index 2;
+        arr[1]=200;
+        System.out.println(arr[1]);
+        
+
+
+    }
+    
+}
